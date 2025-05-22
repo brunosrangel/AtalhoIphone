@@ -1,0 +1,14 @@
+<div style="max-width: 600px; margin: 2rem auto;">
+  <h2>Gerador de Atalho iPhone - Spotify + Bluetooth</h2>
+  <mat-form-field appearance="fill" style="width: 100%; margin-bottom: 1rem;">
+    <mat-label>Link da Playlist do Spotify</mat-label>
+    <input matInput [(ngModel)]="playlistUrl" placeholder="https://open.spotify.com/playlist/..." />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="width: 100%; margin-bottom: 1rem;">
+    <mat-label>Nome do Dispositivo Bluetooth</mat-label>
+    <input matInput [(ngModel)]="deviceName" placeholder="Ex: Caixa com led" />
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="gerarAtalho()" style="width: 100%;">Gerar Atalho</button>
+</div>

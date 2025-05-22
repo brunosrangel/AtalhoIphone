@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { AtalhoFormComponent } from "./atalho-form/atalho-form.component";
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [AtalhoFormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
