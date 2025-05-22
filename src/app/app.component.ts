@@ -1,4 +1,3 @@
-import { Component } from '@angular/core';
 import { AtalhoFormComponent } from "./atalho-form/atalho-form.component";
 
 @Component({
